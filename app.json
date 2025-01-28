@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "EsfanaGelirMobile",
-    "slug": "EsfanaGelirMobile",
+    "name": "Esnafa Gelir",
+    "slug": "esnafagelir",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,16 +13,25 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.esnafagelir.app",
+      "buildNumber": "1"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.esnafagelir.app",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "380a4091-9fad-4626-8870-f1fe17a7daff"
+      }
     }
   }
 }
